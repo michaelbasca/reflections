@@ -26,9 +26,18 @@ nature following the master branch.
 
 How do the diagrams help you visualize the branch structure?
 
+Diagrams help visualize structure because they give a representation of where 
+branches forks and what commit are parents and children.
+
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+The result is keeping the overlap of the same code while assessing the parts
+that are different.  You have to streams directed to one commit.
+
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+
+The pros is that it can save a lot of time with redundant code.  The con is
+that it may merge code which wasn't intended by the user thus creating bugs.
 
