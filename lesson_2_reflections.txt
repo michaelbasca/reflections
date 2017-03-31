@@ -8,12 +8,21 @@ inititiation.
 How is the staging area different from the working directory and the
 repository?
 What value do you think it offers?
+The staging area is different from the working repository because it shows
+intent of wanting to become part of the version control system where the
+working dirctory does not.   It offers value because you can type git status to
+see whether which files are part of git and which aren't.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+You can use git status to see how many commits are listed.
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+
+When you'd like to create an experimental repository that isn't in a sequential
+nature following the master branch.
 
 How do the diagrams help you visualize the branch structure?
 
